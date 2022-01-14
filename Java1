@@ -1,0 +1,36 @@
+import java.lang.*; 
+
+  
+
+public class GFG { 
+
+  
+
+    public static void main(String[] args) 
+
+    { 
+
+  
+
+        Float value = 1023f; 
+
+  
+
+        // Returns the value of Float as a byte 
+
+        byte byteValue = value.byteValue(); 
+
+        System.out.println("Byte Value of num = " + byteValue); 
+
+  
+
+        // Another example 
+
+        value = 12f; 
+
+        byteValue = value.byteValue(); 
+
+        System.out.println("Byte Value of num = " + byteValue); 
+
+    } 
+} 
